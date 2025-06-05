@@ -1,0 +1,14 @@
+GSL_INCL   = -I/opt/homebrew/include
+GSL_LIBS   = -L/opt/homebrew/lib
+
+FFTW_INCL  = -I/opt/homebrew/include
+FFTW_LIBS  = -L/opt/homebrew/lib
+
+HDF5_INCL  = -I/opt/homebrew/include
+HDF5_LIBS  = -L/opt/homebrew/lib
+
+HWLOC_INCL = -I/opt/homebrew/include
+HWLOC_LIBS = -L/opt/homebrew/lib
+
+MAPS_INCL  = -I/opt/homebrew/include/healpix_cxx
+MAPS_LIBS  = -L/opt/homebrew/lib

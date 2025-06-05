@@ -106,8 +106,8 @@ RESULT     := $(shell SRC_DIR=$(SRC_DIR) BUILD_DIR=$(BUILD_DIR) ./buildsystem/gi
 ##########################
 #define available Systems#
 ##########################
-ifeq ($(SYSTYPE),"mypc")
-include buildsystem/Makefile.path.mypc
+ifeq ($(SYSTYPE),"Mac")
+include buildsystem/Makefile.path.Mac
 include buildsystem/Makefile.comp.gcc
 endif
 
